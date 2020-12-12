@@ -36,10 +36,14 @@ In the UEFA Champions League, the group stage comprises of 32 football clubs. Th
 30. Valencia (ESP)
 31. Wolfsburg (GER)
 32. Zenit (RUS)
+
 Problem Statement:
+
 Our goal is to create a program / website application which randomly generates 8 groups with 4 teams each.
 For e.g., this year’s group stage looks like this:
+
 Rules & Instructions:
+
 ● Use the list of teams given on Page 1.
 ● Group names will be “Group A”, “Group B”, “Group C” and so on.
 ● A group cannot have more than one team from the same country.
