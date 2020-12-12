@@ -1,0 +1,197 @@
+::-webkit-scrollbar {
+
+        display: none;
+    }
+    ::-moz-scrollbar {
+
+        display: none;
+    }
+
+@font-face
+{
+	font-family: nunito;
+	src:url("nunito.ttf");
+}
+
+@font-face
+{
+	font-family: pacifico;
+	src:url("pacifico.ttf");
+
+}
+
+body{
+	background-color: black;
+	background-image: url(main1.jpg);
+	background-repeat: no-repeat;
+	background-position: 50px 650px;
+	background-size: 1180px 600px;
+	}
+
+#lionel_messi
+{
+		position: absolute;
+		top: 35%;
+		left: 0%;
+		height: 80%;
+		width: 25%;
+		background-image: url(messi.jpg);
+		background-size: 100% 430px;
+		background-repeat: no-repeat;
+		background-position: 0px 0px;
+
+}
+
+#ronaldo
+{
+	position: absolute;
+	top: 4%;
+	right: 0%;
+	height: 30%;
+	width: 30%;
+	background-image: url(seen2.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+}
+
+#uefacom
+{
+	position:absolute;
+	top:50%;
+	left:7%;
+	font-size:30px;
+	transition: opacity;
+	transition-duration: 1.5s;
+	opacity: 0;
+	color: white;
+}
+
+#dates
+{
+	position:absolute;
+	top:50%;
+	right:5%;
+	font-size:30px;
+	transition: opacity;
+	transition-duration: 1.5s;
+	opacity: 0;
+	z-index: 2;
+	color: white;
+}
+
+#this_is_for_transition
+{
+	position:absolute;
+	top: 20%;
+	left: 50%;
+	height: 10%;
+	width: 10%;
+	transform: translate(-50%,0);
+	opacity: 1;
+	color:white;
+	text-align: center;
+
+}
+ /*Defining the animation*/
+
+
+#top_bar
+{
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	width: 100%;
+	height: 30%;
+	background-color:black;
+	background-image:url("uefa.png");
+	background-repeat: no-repeat;
+	background-size: 200px 200px;
+	background-position: center;
+}
+
+#place_where_groups_are_placed
+{
+	position: absolute;
+	top:35%;
+	left: 0%;
+	width: 100%;
+	color: white;
+}
+
+#navigation_bar
+{
+	position: absolute;
+	top: 30%;
+	left: 0%;
+	width: 100%;
+}
+
+.name_of_the_group
+{
+	line-height: 180%;
+	opacity: 0;
+	font-size: 2.5vh;
+	font-family: nunito;
+	transition:opacity;
+	transition-duration: 2.0s;
+	font-size: 25px;
+}
+
+.initial_not_visible
+{
+	line-height: 200%;
+	opacity: 0;
+	transition: opacity;
+	transition-duration: 1.5s;*/
+}
+
+#sponsors
+{
+	position: absolute;
+	top: 130%;
+	left: 0%;
+	bottom:10%;
+	height: 40%;
+	width: 100%;
+	background: red;
+	background: url(adidas.png) 100px 100px no-repeat, url(lays_logo.png) 250px 100px no-repeat,url(master.png) 400px 100px no-repeat,url(heineken.png) 550px 100px no-repeat,url(nissan.png) 700px 90px no-repeat,url(sony.png) 850px 110px no-repeat,url(nike.png) 1050px 80px no-repeat;
+	background-size: 120px, 100px,130px,150px,120px,150px,140px;
+	margin-top: 0px;
+	color: white;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button2 {
+    background-color: white;
+    color: black;
+    border: 5px solid #008CBA;
+		border-radius: 10px;
+
+}
+
+.button2:hover {
+    background-color: #008CBA;
+    color: white;
+}
+
+#rerun
+{
+	position: absolute;
+	top: 60%;
+	right: 4%;
+}
