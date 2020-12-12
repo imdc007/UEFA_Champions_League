@@ -2,6 +2,7 @@
 
 Context:
 In the UEFA Champions League, the group stage comprises of 32 football clubs. This year, the following teams have qualified:
+
 ● Club (Country)
 1. Arsenal (ENG)
 2. Astana (KAZ)
