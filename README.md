@@ -57,3 +57,5 @@ Rules & Instructions:
 ● Candidates will be having 2 days time to complete the assignment.
 ● If we find that code is shared between candidates both candidates will be disqualified from future rounds.
 All the best!
+
+Preview: https://imdc007.github.io/UEFA_Champions_League/
